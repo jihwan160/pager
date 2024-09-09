@@ -7,20 +7,19 @@
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-    
-    <div id="content">
-        <!-- 여기에 JSON 데이터로부터 불러온 콘텐츠가 표시됩니다 -->
+    <ul>
+        <li>
+            <div class="container">
+                <p class="num"></p>
+                <p class="title"></p>
+            </div>
+        </li>
+    </ul>
+    <div class="pagenation">
+        <div class="prev"></div>
+        <div class="numBtnCover"><span class="numBtn"></span></div>
+        <div class="next"></div>
     </div>
-    
-    <div class="pager">
-        <button id="prevBtn" onclick="changePage(currentPage - 1)">이전</button>
-    
-        <!-- 숫자 페이저 버튼 생성 -->
-        <span id="pageNumbers"></span>
-    
-        <button id="nextBtn" onclick="changePage(currentPage + 1)">다음</button>
-    </div>
-</div>
 </body>
 <script src="./js/index.js"></script>
 </html>
