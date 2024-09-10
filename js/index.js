@@ -37,3 +37,4 @@ const setPageButtons = () => {
         numberButtonCover.innerHTML += `<span class="numBtn"> ${i} </span>`;
     }
 }
+ 
