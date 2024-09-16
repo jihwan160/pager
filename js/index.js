@@ -40,7 +40,7 @@ const data = [
     postNumber: 26,
   },
   { title: '페이지네이션', postNumber: 27 },
-]
+] 
 
 /**
  * 필요한 페이지 번호 개수 구하기
